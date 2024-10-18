@@ -1,0 +1,42 @@
+<form [formGroup]="contactform" (ngSubmit)="save()">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4 shadow-lg p-4 rounded bg-light">
+                <h3 class="text-center mb-4">
+                    <i class="fa fa-headset"></i> Contact Us
+                </h3>
+                <div class="mb-4">
+                    <label> Your Name </label>
+                    <input type="text" class="form-control" placeholder="Enter your Name"  formControlName="name"/>
+                    <small class="text-danger" *ngIf="formsubmitted && contactform.controls.name.errors">Invalid Fullname</small>
+                </div>
+
+                <div class="mb-4">
+                    <label> Your Mobile No </label>
+                    <input type="number" class="form-control" placeholder="Enter mobile no" formControlName="mobile"/>
+                    <small class="text-danger" *ngIf="formsubmitted && contactform.controls.mobile.errors">Invalid Mobile</small>
+                </div>
+
+                <div class="mb-4">
+                    <label> Your Email Id </label>
+                    <input type="email" class="form-control" placeholder="Enter Email" formControlName="email" />
+                    <small class="text-danger" *ngIf="formsubmitted && contactform.controls.email.errors">Invalid Emailid</small>
+                </div>
+
+                <div class="mb-4">
+                    <label> Your Address </label>
+                    <textarea class="form-control" placeholder="Enter Address" formControlName="address"></textarea>
+                    <small class="text-danger" *ngIf="formsubmitted && contactform.controls.address.errors">Invalid address</small>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-primary">
+                        <i class="fa fa-envelope"></i> Send Message
+                    </button>
+                </div>
+            </div> <!--middle 4end-->
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+</form>

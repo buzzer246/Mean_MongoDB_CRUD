@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "66eee748830e17ea71bc385b"
+  },
+  "fullname": "AvinashReddyK",
+  "mobile": 9703104087,
+  "address": "Bangalore",
+  "email": "avinashreddy471@gmail.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66eee760830e17ea71bc385e"
+  },
+  "fullname": "Uma Maheshwar",
+  "mobile": 8756987452,
+  "address": "Mumbai",
+  "email": "uma.maheshwar@gmail.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67121d0c24cbfc8b98ddbfa0"
+  },
+  "fullname": "MidhunkumarS",
+  "mobile": 8975648752,
+  "address": "Hyderabad",
+  "email": "Midhun.123@gmail.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67121e4524cbfc8b98ddbfb4"
+  },
+  "fullname": "RohithKumarP",
+  "mobile": 874545445454,
+  "address": "Bangalore",
+  "email": "rohit.abc@gmail.com",
+  "__v": 0
+}]
